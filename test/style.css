@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('fonts/subset-Roboto-Bold.woff2') format('woff2'),
+        url('fonts/subset-Roboto-Bold.woff') format('woff'),
+        url('fonts/subset-Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('fonts/subset-Montserrat-Regular.woff2') format('woff2'),
+        url('fonts/subset-Montserrat-Regular.woff') format('woff'),
+        url('fonts/subset-Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather Bold';
+    src: url('fonts/subset-Merriweather-Bold.woff2') format('woff2'),
+        url('fonts/subset-Merriweather-Bold.woff') format('woff'),
+        url('fonts/subset-Merriweather-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('fonts/subset-Montserrat-Bold.woff2') format('woff2'),
+        url('fonts/subset-Montserrat-Bold.woff') format('woff'),
+        url('fonts/subset-Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Regilar';
+    src: url('fonts/subset-Roboto-Regular.woff2') format('woff2'),
+        url('fonts/subset-Roboto-Regular.woff') format('woff'),
+        url('fonts/subset-Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather Regilar';
+    src: url('fonts/subset-Merriweather-Regular.woff2') format('woff2'),
+        url('fonts/subset-Merriweather-Regular.woff') format('woff'),
+        url('fonts/subset-Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+}
+
+h1 {
+    font-family: 'Merriweather Bold', sans-serif;
+    font-size: 130px;
+    line-height: 140px;
+    font-weight: bold;
+    margin-left: 735px;
+    color: #fff
+}
+h2 {
+    font-family: Merriweather Bold;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 80px;
+}
+h3 {
+    font-family: Montserrat Bold;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+body {
+    display: block;
+    width: 100%;
+    letter-spacing: 0.50px;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+header {
+    background-color: #033456;
+}
+.connection {
+    width: 1920px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+.connection__link {
+    color: #9AAEBB;
+    font-family: 'Montserrat Regular';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 30px;
+}
+
+.telephone-number {
+    padding-right: 30px;
+}
+.telephone__text {
+    padding-right: 30px;
+}
+
+.mail__text {
+    padding-right: 260px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.menu__list {
+    display: flex;
+    list-style: none;
+
+}
+
+.logo {
+    padding-right: 50px;
+    /*padding-left: 255px;?*/
+}
+
+.menu__link {
+    padding-right: 50px;
+    font-family: 'Montserrat Regular';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    color: #fff
+}
+
+.lesson {
+    background-color: #EE2F30;
+    width: 225px;
+    height: 60px;
+    border-radius: 50px;
+} 
+
+.tick{
+    background-image: url(img/tick.svg);
+    padding-left: 50%;
+}
+.link {
+    padding-left: 50%;
+    font-family: 'Roboto Regilar';
+    font-size: 12px;
+    line-height: 30px;
+    color: #fff;
+    
+}
+
+.main__text {
+    font-family: Merriweather Bold;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 50px;
+    color: #fff;
+    margin-left: 730px;
+    width: 1000px;
+}
+
+.main {
+    background: linear-gradient(176deg, #033456 46.89%, #051F31 94.93%);
+    padding-top: 160px;
+}
+
+.elements {
+    padding-left: 800px;
+    display: flex;
+    padding-top: 100px;
+}
+.element {
+    width: 50%;
+}
+
+.element__title {
+    font-family: 'Montserrat Regular';
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+    color: #FFD40C;
+
+}
+
+.element__text {
+    font-family: 'Montserrat Regular';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff
+}
+.main__links {
+    padding-left: 730px;
+    display: flex;
+}
+.main__link-lessonn {
+    width: 321px;
+    height: 60px;
+    background-color: #EE2F30;
+    border-radius: 30px;
+    }
