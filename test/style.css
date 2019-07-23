@@ -155,7 +155,7 @@ header {
     padding-left: 50%;
 }
 .link {
-    padding-left: 50%;
+    padding: 20px 23px;
     font-family: 'Roboto Regilar';
     font-size: 12px;
     line-height: 30px;
@@ -243,6 +243,7 @@ header {
     text-align: center;
     letter-spacing: 0.2em;
     font-weight: 100;
+    padding: 20px;
  }
 
  .steps {
@@ -419,6 +420,7 @@ header {
 
 .about {
     background-color: #033456;
+    padding-bottom: 110px;
 }
 .about__title{
     color: #fff;
@@ -438,4 +440,349 @@ font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
 margin-right: 25px;
+}
+
+.price {
+
+    background-color: #033456;
+    padding: 110px 0 72px;
+}
+
+.price__cards {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.price__card {
+
+    background: #F2F5F6;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.price__info {
+    margin: 0 auto;
+}
+.price__card-main{
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.price__card-info {
+    font-family: 'Merriweather Regilar';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 40px;
+    text-align: center;
+    color: #EE2F30;
+    padding-top: 25px;
+
+}
+
+.price__title {
+    padding-bottom: 25px;
+}
+
+.price__list {
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.price__item {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1D323F;
+}
+
+.price__card-link {
+    border: 2px solid rgba(5, 26, 40, 0.1);
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-family: 'Roboto Regilar';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #051A28;
+    padding: 23px;
+}
+
+.promotions {
+    padding-top: 72px;
+    background-color: #033456;
+}
+.promotions__title {
+    margin: 0 auto;
+    color: #fff;
+}
+.promotions__cards {
+
+    display: flex;
+    padding-bottom: 170px;
+ 
+}
+
+.promotions__card {
+    background: linear-gradient(180deg, rgba(255, 193, 48, 0.15) 0%, rgba(255, 193, 48, 0.9) 61.33%);
+    border-radius: 20px;
+    width: 330px;
+    height: 427px;
+    margin: 0 15px;
+}
+.promotions__name {
+    padding-top: 167px;
+    margin-left: 20px;
+}
+
+.promotions__text {
+    margin-top: 30px;
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #051A28;
+    width: 281px;
+    margin-left: 20px;
+}
+
+.level {
+    padding-top: 170px;
+    background-color: #F1F6FC;
+}
+
+.level__question {
+     font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    color: #1D323F;
+    padding: 50px 0;
+}
+.level__text {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1D323F;
+    padding: 50px 0 40px; 
+}
+
+.level__connections {
+    padding-bottom: 300px;
+}
+.level__link {
+    border-radius: 30px;
+   
+}
+
+.level__link-red {
+    background-color: #EE2F30;
+    color: #FABD2D;
+    padding: 20px 28px;
+    font-family: 'Roboto Regilar';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.2em;
+    margin-right: 10px;
+}
+.level__link-orange {
+    background-color: #FABD2D;
+    padding: 20px 28px;
+    font-family: 'Roboto Regilar';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #051A28;
+    margin-left: 10px;
+}
+
+.reviews {
+    padding-top: 100px;
+    background-color: #F1F6FC;
+
+}
+.reviews__title {
+    padding-top: 30px;
+}
+
+.reviews__cards {
+
+    display: flex;
+    margin: 0 258px;
+}
+
+.review {
+    width: 50%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 17px;
+}
+
+.user__name {
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 30px;
+    color: #033456;
+    border-bottom: 1px solid #033456;
+}
+.review__text {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1D323F;
+    padding-top: 50px;
+}
+
+footer {
+    background-color: #033456;;
+}
+
+.footer__title {
+    color: #fff;
+    font-size: 47px;
+}
+
+.type__study {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 30px;
+    color: #F1F6FC;
+    padding-bottom: 20px;
+} 
+.traning__list {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    list-style: none;
+}
+
+.traning__item-yellow {
+    background: #FABD2D;
+    border-radius: 30px;
+    font-family: 'Roboto Regilar';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #051A28;
+    padding: 20px 22px;
+}
+
+.traning__item-middle {
+    background: #033456;
+    font-family: 'Roboto Regilar';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #fff;
+    padding: 20px 22px;
+}
+
+.traning__item-last {
+    background: #033456;
+    border-radius: 0 160px 160px 0 ;
+    font-family: 'Roboto Regilar';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #fff;
+    padding: 20px 22px;
+}
+.traning__data {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 30px;
+    color: #F1F6FC;
+    padding-bottom: 20px;
+}
+.personal {
+    padding-bottom: 95px;
+}
+
+.data {
+    width: 250px;
+    background-color: #022A45;
+    border-radius: 40px;
+    border: 0;
+    padding: 20px 30px;
+    font-family: 'Roboto Regilar';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #F1F6FC;
+    margin: 0 15px;
+}
+
+.request {
+    background-color: #EE2F30;
+    border-radius: 30px;
+    font-family: 'Roboto Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    padding: 20px 37px 20px 50px;
+}
+
+.contacts {
+    padding-top: 270px;
+}
+
+.contacts__title {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: right;
+    color: #F1F6FC;
+}
+
+.social__list {
+    list-style: none;
+    display: flex;
+}
+
+.social__link {
+    font-size: 0;
+}
+
+.connection {
+    padding-top: 25px;
 }
