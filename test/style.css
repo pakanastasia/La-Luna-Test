@@ -52,10 +52,224 @@
     font-style: normal;
 }
 
+@media (min-width: 320px) {
+    * {
+      box-sizing: border-box;
+      text-decoration: none;
+      margin: 0 auto;
+    }
+
+    h1 {
+        font-family: 'Merriweather Bold', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        color: #fff
+    }
+    h2 {
+        font-family: Merriweather Bold;
+        font-style: normal;
+        font-size: 30px;
+    
+
+    }
+    h3 {
+        font-family: Montserrat Bold;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    body {
+        display: block;
+        width: 100%;
+        letter-spacing: 0.50px;
+    }
+    
+    header{
+        background-color: #033456;
+    }
+    .main {
+        background: linear-gradient(176deg, #033456 57.3%, #051F31 98.95%);
+    }
+
+    .container {
+        width: 320px;
+        margin: 0 auto;
+    }
+    
+    .main__text {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    }
+
+    .main {
+        padding-bottom: 90px;
+    }
+
+    .element {
+        padding-top: 50px;
+    }
+
+    .element__title {
+        font-family: 'Montserrat Regular';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFD40C;
+    }
+
+    .element__text {
+        font-family: 'Montserrat Regular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .main__connection {
+        padding-top: 30px;
+    }
+
+    .main__link-lesson {
+
+        background: #EE2F30;
+        border-radius: 30px;
+        width: 270px;
+        height: 60px;
+        margin-bottom: 10px;
+     }
+
+     .main__link-connection {
+        width: 270px;
+        height: 60px;
+        background: #04263D;
+        border: 2px solid #183C55;
+        box-sizing: border-box;
+        border-radius: 30px;
+
+     }
+
+     .link__item {
+        padding: 20px 28px;
+        font-family: 'Roboto Bold';
+        font-style: normal;
+        font-size: 10px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2em;
+        color: #FFFFFF;
+     }
+
+     .item {
+        top: 0px;
+        font-family: 'Montserrat Bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 30px;
+        color: #EE2F30;
+     }
+    
+    .steps {
+        padding: 75px 0 65px;
+    }
+    
+    .steps__cards {
+        padding-top: 70px;
+    }
+
+    .step__card-text {
+        font-family: 'Montserrat Bold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #1D323F;
+    }
+
+    .advantages {
+        background-color: #F1F6FC;
+    }
+
+    .advantages__info-text {
+        font-family: 'Montserrat Bold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 30px;
+        color: #051A28;
+    }
+    
+    .advantages__cards {
+        padding-top: 95px;
+    }
+
+    .advantages__card {
+        width: 288px;
+        background-color: #fff;
+    }
+
+    .advantages__card-text {
+        font-family: 'Montserrat Bold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #1D323F;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 1024px) {
+    
 * {
   box-sizing: border-box;
   text-decoration: none;
-  margin: 0;
+  margin: 0 auto;
 }
 
 h1 {
@@ -71,6 +285,7 @@ h2 {
     font-style: normal;
     font-size: 70px;
     line-height: 80px;
+
 }
 h3 {
     font-family: Montserrat Bold;
@@ -248,7 +463,7 @@ header {
 
  .steps {
 
-    padding: 160px 255px 200px;
+    padding: 160px 0 200px;
  }
 
 
@@ -259,6 +474,7 @@ header {
     line-height: 30px;
     color: #EE2F30;
     align-items: center;
+    pl
 }
 .steps__cards {
 
@@ -297,7 +513,7 @@ header {
 .advantages {
     padding-top: 165px;
     background-color: #F1F6FC;
-    margin-left: 255px;
+    
 }
 .advantages__title {
 
@@ -311,11 +527,12 @@ header {
 }
 .advantages__info-text {
     width: 50%;
+    font-family: 'Montserrat Regular';
     margin-left: 50px;
-    font-style: normal;
-    font-weight: 600;
     font-size: 21px;
     line-height: 40px;
+    font-weight: 800;
+    
     color: #1D323F;
 }
 
@@ -323,6 +540,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 140px 0 200px;
     /*margin: 0 px;*/
 }
 
@@ -388,9 +606,9 @@ header {
     height: 60px;
     background: #EE2F30;
     border-radius: 50px;
-    font-family: 'Roboto Regilar';
+    font-family: 'Roboto Bold';
     font-style: normal;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 12px;
     line-height: 20px;
     text-align: center;
@@ -402,9 +620,9 @@ header {
 
 .advantages__card-link_white {
     border: 2px solid rgba(5, 26, 40, 0.1);
-    font-family: 'Roboto Regilar';
+    font-family: 'Roboto Bold';
     font-style: normal;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 12px;
     line-height: 20px;
     text-align: center;
@@ -412,7 +630,7 @@ header {
     color: #051A28;
     border: 2px solid rgba(5, 26, 40, 0.1);
     box-sizing: border-box;
-    border-radius: 30px;
+    border-radius: 50px;
     background-color: #FFE600;
     margin-left: 10px;
 
@@ -420,7 +638,7 @@ header {
 
 .about {
     background-color: #033456;
-    padding-bottom: 110px;
+    padding: 150px 0 110px;
 }
 .about__title{
     color: #fff;
@@ -525,7 +743,6 @@ margin-right: 25px;
 
     display: flex;
     padding-bottom: 170px;
- 
 }
 
 .promotions__card {
@@ -610,7 +827,7 @@ margin-right: 25px;
 }
 
 .reviews {
-    padding-top: 100px;
+    padding: 100px 0 170px;
     background-color: #F1F6FC;
 
 }
@@ -621,14 +838,17 @@ margin-right: 25px;
 .reviews__cards {
 
     display: flex;
-    margin: 0 258px;
+    /*margin: 0 258px;*/
+    padding-top: 140px;
+    justify-content: space-around;
 }
 
 .review {
     width: 50%;
     background-color: #FFFFFF;
     border-radius: 20px;
-    margin: 0 17px;
+    width: 686px;
+
 }
 
 .user__name {
@@ -651,12 +871,14 @@ margin-right: 25px;
 }
 
 footer {
-    background-color: #033456;;
+    background-color: #033456;
+    padding-top: 170px;
 }
 
 .footer__title {
     color: #fff;
     font-size: 47px;
+
 }
 
 .type__study {
@@ -666,7 +888,7 @@ footer {
     font-size: 21px;
     line-height: 30px;
     color: #F1F6FC;
-    padding-bottom: 20px;
+    padding: 110px 0 20px;
 } 
 .traning__list {
 
@@ -828,9 +1050,14 @@ footer {
     position: fixed;
 }
 
+.students {
+    padding-bottom: 200px;
+}
+
 .student__card {
 
     display: flex;
+    padding-top: 200px;
 }
 
 .student__text {
@@ -840,4 +1067,6 @@ footer {
     font-size: 16px;
     line-height: 30px;
     color: #1D323F;
+}
+
 }
